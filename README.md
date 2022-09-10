@@ -2,9 +2,9 @@
 
 Title : Blood DNA methylation marks discriminate Chagas cardiomyopathy disease clinical forms
 
-Authors : Pauline Brochet(1), Barbara Ianni(2, João PS Nunes(1,2,3,4), Amanda F Frade(2,3,4), Priscila C Teixeira(2,3,4), Charles Mady(5), Ludmila RP Ferreira(6), Andreia Kuramoto(2), Cristina W Pissetti(7), Bruno Saba(8), Darlan DS Cândido(2,3,4), Fabrício Dias(9), Marcelo Sampaio(8), José A Marin-Neto(9), Abílio Fragata(8), Ricardo CF Zaniratto(2), Sergio Siqueira(10), Giselle DL Peixoto(10), Vagner OC Rigaud(2), Paula Buck(11), Rafael R Almeida(2,3,4), Hui Tzu Lin-Wang(8), André Schmidt(9), Martino Martinelli(10), Mario H Hirata(12), Eduardo Donadi(9), Virmondes Rodrigues Junior(7), Alexandre C Pereira(11), Jorge Kalil(2,3,4), Lionel Spinelli(1,13),c, Edecio Cunha-Neto(2,3,4,c,*), Christophe Chevillard(1,c,*).
+Authors : Pauline Brochet(1), Barbara Ianni(2, João PS Nunes(1,2,3,4), Amanda F Frade(2,3,4), Priscila C Teixeira(2,3,4), Charles Mady(5), Ludmila RP Ferreira(6), Andreia Kuramoto(2), Cristina W Pissetti(7), Bruno Saba(8), Darlan DS Cândido(2,3,4), Fabrício Dias(9), Marcelo Sampaio(8), José A Marin-Neto(9), Abílio Fragata(8), Ricardo CF Zaniratto(2), Sergio Siqueira(10), Giselle DL Peixoto(10), Vagner OC Rigaud(2), Paula Buck(11), Rafael R Almeida(2,3,4), Hui Tzu Lin-Wang(8), André Schmidt(9), Martino Martinelli(10), Mario H Hirata(12), Eduardo Donadi(9), Virmondes Rodrigues Junior(7), Alexandre C Pereira(11), Jorge Kalil(2,3,4), Lionel Spinelli(1,13,c), Edecio Cunha-Neto(2,3,4,c,t), Christophe Chevillard(1,c,t).
 
-* Authors had an equal contribution. 
+t Authors had an equal contribution. 
 c corresponding authors 
 
  
