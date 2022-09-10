@@ -2,7 +2,7 @@
 
 Title : Blood DNA methylation marks discriminate Chagas cardiomyopathy disease clinical forms
 
-Authors : Pauline Brochet1, Barbara Ianni2, João PS Nunes1,2,3,4, Amanda F Frade2,3,4, Priscila C Teixeira2,3,4, Charles Mady5, Ludmila RP Ferreira6, Andreia Kuramoto2, Cristina W Pissetti7, Bruno Saba8, Darlan DS Cândido2,3,4, Fabrício Dias9, Marcelo Sampaio8, José A Marin-Neto9, Abílio Fragata8, Ricardo CF Zaniratto2, Sergio Siqueira10, Giselle DL Peixoto10, Vagner OC Rigaud2, Paula Buck11, Rafael R Almeida2,3,4, Hui Tzu Lin-Wang8, André Schmidt9, Martino Martinelli10, Mario H Hirata12, Eduardo Donadi9, Virmondes Rodrigues Junior7, Alexandre C Pereira11, Jorge Kalil2,3,4, Lionel Spinelli1,13,c, Edecio Cunha-Neto2,3,4,c,*, Christophe Chevillard1,c,*.
+Authors : Pauline Brochet(1), Barbara Ianni(2, João PS Nunes(1,2,3,4), Amanda F Frade(2,3,4), Priscila C Teixeira(2,3,4), Charles Mady(5), Ludmila RP Ferreira(6), Andreia Kuramoto(2), Cristina W Pissetti(7), Bruno Saba(8), Darlan DS Cândido(2,3,4), Fabrício Dias(9), Marcelo Sampaio(8), José A Marin-Neto(9), Abílio Fragata(8), Ricardo CF Zaniratto(2), Sergio Siqueira(10), Giselle DL Peixoto(10), Vagner OC Rigaud(2), Paula Buck(11), Rafael R Almeida(2,3,4), Hui Tzu Lin-Wang(8), André Schmidt(9), Martino Martinelli(10), Mario H Hirata(12), Eduardo Donadi(9), Virmondes Rodrigues Junior(7), Alexandre C Pereira(11), Jorge Kalil(2,3,4), Lionel Spinelli(1,13),c, Edecio Cunha-Neto(2,3,4,c,*), Christophe Chevillard(1,c,*).
 
 * Authors had an equal contribution. 
 c corresponding authors 
@@ -61,16 +61,13 @@ By combining both transcriptomic and methylomic analysis on heart tissue, and me
 
 ## Goal of the repository
 
-This GitHub repository contains the python scripts as well as conda environment to reproduce the analysis performed on *Blood DNA methylation marks discriminate Chagas cardiomyopathy disease clinical forms* paper [DOI].
+This GitHub repository contains the python scripts as well as conda environment to reproduce the analysis performed on *Blood DNA methylation marks discriminate Chagas cardiomyopathy disease clinical forms* paper (DOI : https://doi.org/10.3389/fimmu.2022.958200).
 
 
 
-## Description of the datasets
+## Description of the dataset
 
-One methylation dataset was 
-
-
-All those data are available at [GEO].
+The dataset contains methylation levels (delta beta value) of 138 samples (48 asymptomatic, 46 moderate CCC and 44 severe CCC). It is available at GEO  (accession number : GSE191082).
 
 
 
@@ -90,6 +87,7 @@ In order to prepare the environment for analysis execution, it is required to:
 This section provides additional information for each of these steps.
  
 
+
 ### Clone the GitHub repository
 
 Use you favorite method to clone this repository in a chosen folder (see [GitHub documentation](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for more information). This will create a folder called `EpiChagas` containing all the code and documentation. 
@@ -103,13 +101,28 @@ export WORKING_DIR=/home/user/workspace/biomarkersChagas
 ```
  
 
+
 ### Create the conda environment
 
-
-
-### Documentation
-
-
-
+Go to the Github repertoire, and create the environement from the yml :
 
 ```
+conda env create --name biomarkers --file=00.Data/Conda_environment.yml
+```
+
+
+### Run the analysis
+
+In a Linux terminal, activate the conda environment :
+
+```
+source activate biomarkers
+```
+
+Then run the script :
+
+```
+sh main.sh
+```
+
+The raw files will be download automatically, and the analysis results will be created in the 01 or 02 folders, depending on the analysis.
